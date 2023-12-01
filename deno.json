@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "one-one": "deno run --watch one-one.ts",
-    "one-two": "deno run --watch one-two.ts"
+    "one-one": "deno run --watch one/one.ts",
+    "one-two": "deno run --watch one/two.ts"
   }
 }
