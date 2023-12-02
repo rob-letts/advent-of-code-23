@@ -1,6 +1,8 @@
 {
   "tasks": {
     "one-one": "deno run --watch --allow-read one/one.ts",
-    "one-two": "deno run --watch --allow-read one/two.ts"
+    "one-two": "deno run --watch --allow-read one/two.ts",
+    "two-one": "deno run --watch --allow-read two/one.ts",
+    "two-two": "deno run --watch --allow-read two/two.ts"
   }
 }

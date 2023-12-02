@@ -30,9 +30,10 @@ for (const line of lines) {
       earliestIndex = firstIndex;
     }
 
-    const lastIndexOfStr = line.lastIndexOf(str);
-    const lastIndexOfNum = line.lastIndexOf(String(num));
-    const lastIndex = Math.max(lastIndexOfStr, lastIndexOfNum);
+    const lastIndex = Math.max(
+      line.lastIndexOf(str),
+      line.lastIndexOf(String(num)),
+    );
 
     if (lastIndex >= latestIndex) {
       latestValue = num;
