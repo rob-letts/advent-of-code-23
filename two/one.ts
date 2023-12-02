@@ -1,27 +1,25 @@
-// TYPES
-type Totals = { [key: string]: number };
-
 // INIT
 const text = await Deno.readTextFile("two/data/input.txt");
 const lines = text.split("\n");
 
+// SETUP
+const maxCubes: { [key: string]: number } = {
+  red: 12,
+  green: 13,
+  blue: 14,
+};
+
 // MAIN
-const validIds = lines.map((line) => {
+const validIds = lines.map((line, index) => {
   const [_, results] = line.split(":");
 
-  const totals: Totals = {
-    red: 0,
-    green: 0,
-    blue: 0,
-  };
-
-  results.split(/;|,/)
+  const isValidGame = results.split(/;|,/)
     .map((item) => item.trim().split(" "))
-    .forEach(([number, colour]) => {
-      totals[colour] = Math.max(totals[colour], Number(number));
+    .every(([number, colour]) => {
+      return Number(number) <= maxCubes[colour];
     });
 
-  return Object.values(totals).reduce((acc, value) => acc * value);
+  return isValidGame ? index + 1 : 0;
 });
 
 // OUTPUT
