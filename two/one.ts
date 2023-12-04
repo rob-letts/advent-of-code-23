@@ -23,5 +23,4 @@ const validIds = lines.map((line, index) => {
 });
 
 // OUTPUT
-const result = validIds.reduce((acc, id) => acc + id);
-console.log(result);
+export const result = validIds.reduce((acc, id) => acc + id);

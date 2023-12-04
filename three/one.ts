@@ -69,5 +69,4 @@ lines.forEach((row, rowIndex) => {
   });
 });
 
-const result = numberArray.reduce((acc, number) => acc + number, 0);
-console.log(result);
+export const result = numberArray.reduce((acc, number) => acc + number, 0);

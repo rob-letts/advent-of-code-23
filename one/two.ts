@@ -44,4 +44,4 @@ for (const line of lines) {
   max += Number(`${earliestValue}${latestValue}`);
 }
 
-console.log(max);
+export const result = max;

@@ -1,10 +1,13 @@
 {
   "tasks": {
+    "test": "deno test --allow-read",
     "one-one": "deno run --watch --allow-read one/one.ts",
     "one-two": "deno run --watch --allow-read one/two.ts",
     "two-one": "deno run --watch --allow-read two/one.ts",
     "two-two": "deno run --watch --allow-read two/two.ts",
     "three-one": "deno run --watch --allow-read three/one.ts",
-    "three-two": "deno run --watch --allow-read three/two.ts"
+    "three-two": "deno run --watch --allow-read three/two.ts",
+    "four-one": "deno run --watch --allow-read four/one.ts",
+    "four-two": "deno run --watch --allow-read four/two.ts"
   }
 }

@@ -86,4 +86,4 @@ gearMap.forEach((numbers) => {
   }
 });
 
-console.log(total);
+export const result = total;
