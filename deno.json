@@ -8,6 +8,8 @@
     "three-one": "deno run --watch --allow-read three/one.ts",
     "three-two": "deno run --watch --allow-read three/two.ts",
     "four-one": "deno run --watch --allow-read four/one.ts",
-    "four-two": "deno run --watch --allow-read four/two.ts"
+    "four-two": "deno run --watch --allow-read four/two.ts",
+    "five-one": "deno run --watch --allow-read five/one.ts",
+    "five-two": "deno run --watch --allow-read five/two.ts"
   }
 }
