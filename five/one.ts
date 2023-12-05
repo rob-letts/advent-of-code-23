@@ -5,7 +5,7 @@ const seedNumbers = seeds.split(" ").map((str) => Number(str));
 
 const currentMapLines: string[] = [];
 
-const result = seedNumbers.map((seed) => getLocation(seed));
+const locations = seedNumbers.map((seed) => getLocation(seed));
 
 function getLocation(seed: number): number {
   let currentSeed = seed;
@@ -41,4 +41,4 @@ function getLocation(seed: number): number {
   return currentSeed;
 }
 
-console.log(Math.min(...result));
+export const result = Math.min(...locations);
