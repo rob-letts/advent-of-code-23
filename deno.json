@@ -12,6 +12,8 @@
     "five-one": "deno run --watch --allow-read five/one.ts",
     "five-two": "deno run --watch --allow-read five/two.ts",
     "six-one": "deno run --watch --allow-read six/one.ts",
-    "six-two": "deno run --watch --allow-read six/two.ts"
+    "six-two": "deno run --watch --allow-read six/two.ts",
+    "seven-one": "deno run --watch --allow-read seven/one.ts",
+    "seven-two": "deno run --watch --allow-read seven/two.ts"
   }
 }
