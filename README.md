@@ -21,6 +21,9 @@
 [x] Day 6
     [x] Question One
     [x] Question Two
-[ ] Day 7
+[x] Day 7
+    [x] Question One
+    [ ] Question Two
+[ ] Day 8
     [ ] Question One
     [ ] Question Two
