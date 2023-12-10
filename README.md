@@ -25,5 +25,8 @@
     [x] Question One
     [ ] Question Two
 [ ] Day 8
-    [ ] Question One
+    [x] Question One
+    [ ] Question Two
+[ ] Day 9
+    [x] Question One
     [ ] Question Two
