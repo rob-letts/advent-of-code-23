@@ -13,6 +13,7 @@ import { result as sixOne } from "./six/one.ts";
 import { result as sixTwo } from "./six/two.ts";
 import { result as sevenOne } from "./seven/one.ts";
 import { result as sevenTwo } from "./seven/two.ts";
+import { result as eightOne } from "./eight/one.ts";
 
 Deno.test("Day One, Question One", () => {
   assertEquals(oneOne, 55834);
@@ -62,6 +63,10 @@ Deno.test("Day Seven, Question One", () => {
   assertEquals(sevenOne, 251927063);
 });
 
-Deno.test("Day Seven, Question One", () => {
+Deno.test("Day Seven, Question Two", () => {
   assertEquals(sevenTwo, 255632664);
+});
+
+Deno.test("Day Eight, Question One", () => {
+  assertEquals(eightOne, 20659);
 });
